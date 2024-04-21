@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flowJs should fail triggering event not found in current state's transitions 1`] = `[Error: Event event2 not found in state state1 transitions]`;
+
+exports[`flowJs should not trigger event if validation fails 1`] = `
+{
+  "errors": {
+    "isValid": "context.isValid is not true",
+  },
+}
+`;
+
+exports[`flowJs should return validation errors based on data 1`] = `
+{
+  "errors": {
+    "isValid": "context.isValid is not true",
+  },
+}
+`;

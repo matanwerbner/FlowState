@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store should trigger pickCategory event and update state only if category is set 1`] = `
+{
+  "errors": {
+    "category": "Category is required",
+  },
+}
+`;
+
+exports[`Store should trigger questionsFetched event and update state to 'gameInProgress' 1`] = `
+{
+  "errors": {
+    "questions": "Questions not found",
+  },
+}
+`;

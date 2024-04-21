@@ -1,0 +1,19 @@
+{
+  "name": "flow-js",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/flow-js/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/flow-js",
+        "main": "packages/flow-js/src/index.ts",
+        "tsConfig": "packages/flow-js/tsconfig.lib.json",
+        "assets": ["packages/flow-js/*.md"]
+      }
+    }
+  }
+}

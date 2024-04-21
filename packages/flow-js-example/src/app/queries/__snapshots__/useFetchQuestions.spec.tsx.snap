@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFetchQuestions should return mocked response for valid data 1`] = `
+{
+  "response_code": 1,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "correct_answer": "True",
+      "difficulty": "medium",
+      "incorrect_answers": [
+        "False",
+      ],
+      "question": "The retail disc of Tony Hawk's Pro Skater 5 only came out in North America.",
+      "type": "boolean",
+    },
+  ],
+}
+`;

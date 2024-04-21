@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOverPage tests should render 1`] = `
+<body>
+  <div>
+    <div
+      class="FlexBox__StyledBox-txfyk3-0 lgdOeB MuiBox-root css-329zn9"
+    >
+      <h3>
+        Game over!
+      </h3>
+      <div>
+        Correct answers: 
+        0
+      </div>
+      <div>
+        Incorrect answers: 
+        0
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Play again
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</body>
+`;
