@@ -6,6 +6,7 @@ export const useFetchQuestions = (
 ) =>
   useQuery({
     queryKey: ['FetchQuestions'],
+    networkMode: 'always',
     queryFn: () => {
       const queryParams = new URLSearchParams({
         amount: '10',
